@@ -1,0 +1,24 @@
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Base application theme. -->
+        <style name="Base.Theme.App_Kotlin_003" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+            <!-- Primary Brand Color -->
+            <item name="colorPrimary">#00BCD4</item>
+            <item name="colorPrimaryVariant">#F44336</item>
+            <item name="colorOnPrimary">#9C27B0</item>
+            <item name="colorSecondary">#3F51B5</item>
+            <item name="colorSecondaryVariant">#FF5722</item>
+            <item name="colorOnSecondary">#FFEB3B</item>
+            <item name="android:statusBarColor" tools:targetApi = "l">?attr/colorPrimaryVariant</item>
+            <item name="android:textViewStyle">@style/textViewStyleCustom</item>
+        </style>
+
+        <style name="Theme.App_Kotlin_003" parent="Base.Theme.App_Kotlin_003" />
+
+        <style name="textViewStyleCustom" parent="Widget.MaterialComponents.TextView">
+            <item name="android:textSize">18sp</item>
+        </style>
+    </resources>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> #FFFFFF -->
+        <!--  -->

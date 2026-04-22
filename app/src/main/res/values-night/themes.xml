@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App_Kotlin_003" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:textViewStyle">@style/textViewStyleCustom</item>
+    </style>
+
+    <style name="textViewStyleCustom" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
